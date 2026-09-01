@@ -1,0 +1,22 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "App.tsx",
+    "index.ts",
+    "src/**/*",
+    "*.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "node_modules.old",
+    "dist.old",
+    ".expo",
+    ".expo.old",
+    "android",
+    "ios"
+  ]
+}

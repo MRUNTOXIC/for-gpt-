@@ -1,0 +1,31 @@
+# EAS Build Ignore File (.easignore)
+# Excludes heavy local build artifacts, dependencies, and temporary files from being uploaded to EAS Cloud.
+
+# Node modules (installed automatically on EAS build servers)
+node_modules/
+
+# Local Expo & Metro caches
+.expo/
+dist/
+web-build/
+
+# Android build outputs & Gradle cache
+android/.gradle/
+android/app/build/
+android/build/
+android/.cxx/
+android/app/.cxx/
+
+# iOS build outputs & Pods
+ios/Pods/
+ios/build/
+ios/DerivedData/
+
+# IDE & OS files
+.DS_Store
+*.log
+.vscode/
+.idea/
+new design/
+new design */
+

@@ -1,0 +1,66 @@
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native build folders - auto generated
+android/
+ios/
+
+# Xcode
+ios/**/*.xcuserstate
+ios/**/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Native certs/keys - never commit
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# env files - never commit
+.env
+.env.*
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# IDE
+.idea/
+**/.idea/
+*.iml
+
+# AI agent config
+.claude/
+**/.claude/
+CLAUDE.md
+AGENTS.md
+.kiro/
+
+# Logs and temporary files
+*.log
+*.old
+*.txt
+.DS_Store
+new design/
+new design */
+
